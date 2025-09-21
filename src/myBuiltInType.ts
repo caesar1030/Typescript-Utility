@@ -1,5 +1,8 @@
 // keyof는 객체 타입의 키들의 유니온 타입
 
+// infer 키워드
+// T extends () => infer R ? R : never에서 조건식이 참이 되도록 만드는 타입 R을 추론
+
 // Partial
 type Post = {
   title: string;
